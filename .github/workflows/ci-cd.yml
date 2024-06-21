@@ -22,7 +22,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          region: 'us-east-1'
+          region: 'ap-south-1'
           application_name: 'spring-amazon-app'
           environment_name: 'spring-amazon-app-env'
           version_label: ${{ github.sha }}
